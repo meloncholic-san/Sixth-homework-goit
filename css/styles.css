@@ -170,7 +170,7 @@ color: var(--logo-light-txt);
 /*Секция шапка*/
 .hat{
     background-color: var(--primary-dark-bg);
-    background-image: linear-gradient(to bottom,rgba(47, 48, 58, 0.99),rgba(47, 48, 58, 0.99))
+    background-image: linear-gradient(to bottom,rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4))
     ,url(../images/hat/hat-background-photo.jpg);
     background-position: center;
     background-repeat: no-repeat;
