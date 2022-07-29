@@ -376,14 +376,6 @@
                                     </svg>
                                 </button>
                               </form>
-
-
-
-
-
-
-
-
                         </div>
                     </div> 
         </div>
@@ -393,7 +385,7 @@
 
     <!--Модальное окно-->
     <div class="backdrop">
-        <div class="modal-wrapper " data-modal>
+        <div class="modal-wrapper is-hidden" data-modal>
             <button type="button" class="modal-button" data-modal-close>
                 <a class="close-icon-link">
                     <svg class="close-icon"  height="18" width="18">
@@ -435,24 +427,25 @@
                     <div class="modal-input-wrapper">
                         <label class="modal-form-label">
                             <span modal-textarea-phrase>Комментарий</span>
-                            <textarea  class="modal-form-textarea" name="massage" rows="5" placeholder="Введите текст">
-
-                            </textarea>
+                            <textarea  class="modal-form-textarea" name="massage" rows="5" placeholder="Введите текст"></textarea>
                           </label>
                     </div>
                 </li>
-
-
-
-
-
-
             </ul>
 
+            <label class="modal-checkbox-label">
+                <input class="modal-checkbox-input" type="checkbox" name="modal-checkbox" id="modal-checkbox" required>
+                <svg class="modal-checkbox-icon" height="8" width="11">
+                    <use href="./images/svg/icons.svg#icon-checked"></use>
+                </svg>
+                <p class="modal-checkbox-phrase">Соглашаюсь с рассылкой и принимаю <a class="modal-checkbox-link" href="">Условия договора</a> </p>
+            </label>
+            <button class= "modal-form-button" type="submit">Отправить</button>
+            </div>
 
 
             </form>
-        </div>
+
     </div>
 <script src="./js/modal.js"></script>
 </body>
